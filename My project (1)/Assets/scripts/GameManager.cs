@@ -19,10 +19,10 @@ public class GameManager : MonoBehaviour
         if (GameEnded == false)
         {
             GameEnded = true;
-            Debug.Log("GAME OVER");
             Invoke("Restart",GameDelay);
         }
-       
+
+     
     }
 
   void Restart()
